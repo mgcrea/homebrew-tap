@@ -7,8 +7,8 @@
 # The two placeholders below are substituted by that job from the artifact it
 # just built and checksummed.
 cask "cupertino" do
-  version "1.29.1"
-  sha256 "701dbd9728a7ad414054ac3c9a892bb5905f8480e1aabce4a11d86d0f7988532"
+  version "1.30.0"
+  sha256 "af3f7ad7abeb07c0e1724a025d6f5e7c4ae33e5bece0048f5012d800149227d4"
 
   url "https://github.com/mgcrea/cupertino/releases/download/app-v#{version}/Cupertino.zip",
       verified: "github.com/mgcrea/cupertino/"
